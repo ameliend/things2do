@@ -9,7 +9,11 @@
             <%= f.input :email,
                         required: true,
                         autofocus: true,
-                        input_html: { autocomplete: "email" }%><br />
+                        input_html: { autocomplete: "b" }%><br />
+
+                        <%= f.input :username,
+                        required: true,
+                        autofocus: true%><br />
 
             <%= f.input :password,
                         label: "Mot de passe",
